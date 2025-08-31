@@ -69,14 +69,21 @@ The trained Logistic Regression model achieved the following accuracy:
 
 ### How to Use
 To run this project on your local machine, follow these steps:
-1. Clone the repository:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ShaonaSarkar/Heart-Disease-Prediction.git
+   cd Heart-Disease-Prediction
+2. Set up a virtual environment (recommended)
+   ```bash
+    python -m venv venv
+    source venv/bin/activate    # On Mac/Linux
+    venv\Scripts\activate       # On Windows
+3. Install the required dependencies 
 
-        - https://github.com/ShaonaSarkar/Heart-Disease-Prediction.git
-
-2. Install the required libraries:
-
-        - pip install numpy pandas scikit-learn
-
+          pip install -r requirements.txt
+   If you don’t want to use `requirements.txt`, you can manually install:
+   
+       pip install numpy pandas scikit-learn jupyter
 3. Download the dataset:
     - Ensure the `heart.csv` file is in the same directory as the notebook.
 
