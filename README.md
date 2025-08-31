@@ -1,96 +1,65 @@
-# Heart-Disease-Prediction
-Heart Disease Prediction using Machine Learning
+
+# Heart Disease Prediction using Machine Learning
 This project aims to predict whether a person has heart disease based on various medical attributes. A Logistic Regression model is trained on a dataset of patient information to classify them into two categories: having heart disease or not.
 
-📋 Table of Contents
-Project Overview
+## 📋 Table of Contents
+- [Project Overview](#Project-Overview)
+- [Dataset](#Dataset)
+- [Workflow](#Features)
+- [Technologies Used](#Target-Variable)
+- [Model Performance](#)
+- How to Use
 
-Dataset
-
-Workflow
-
-Technologies Used
-
-Model Performance
-
-How to Use
-
-📖 Project Overview
+### Project Overview
 The primary goal of this project is to build a machine learning model that can provide an early prediction of heart disease. By analyzing key medical features, the model can assist medical professionals in identifying patients at risk. We use a classic classification algorithm, Logistic Regression, for this purpose.
 
-📊 Dataset
-The dataset used for this project is heart.csv, which contains 1025 records of patient data with 14 medical attributes.
+### Dataset
+The dataset used for this project is `heart.csv`, which contains 1025 records of patient data with 14 medical attributes.
+#### Features:
+1. `age`: Age of the patient
+2. `sex`: Sex of the patient (1 = male; 0 = female)
+3. `cp`: Chest pain type
+4. `trestbps`: Resting blood pressure
+5. `chol`: Serum cholesterol in mg/dl
+6. `fbs`: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
+7. `restecg`: Resting electrocardiographic results
+8. `thalach`: Maximum heart rate achieved
+9. `exang`: Exercise induced angina (1 = yes; 0 = no)
+10. `oldpeak`: ST depression induced by exercise relative to rest
+11. `slope`: The slope of the peak exercise ST segment
+12. `ca`: Number of major vessels (0-3) colored by fluoroscopy
+13. `thal`: Thalassemia (a blood disorder)
 
-Features:
+#### Target Variable:
 
-age: Age of the patient
+- `target`: 1 (diseased heart) or 0 (healthy heart)
 
-sex: Sex of the patient (1 = male; 0 = female)
-
-cp: Chest pain type
-
-trestbps: Resting blood pressure
-
-chol: Serum cholesterol in mg/dl
-
-fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
-
-restecg: Resting electrocardiographic results
-
-thalach: Maximum heart rate achieved
-
-exang: Exercise induced angina (1 = yes; 0 = no)
-
-oldpeak: ST depression induced by exercise relative to rest
-
-slope: The slope of the peak exercise ST segment
-
-ca: Number of major vessels (0-3) colored by fluoroscopy
-
-thal: Thalassemia (a blood disorder)
-
-Target Variable:
-
-target: 1 (diseased heart) or 0 (healthy heart)
-
-⚙️ Workflow
+### ⚙️ Workflow
 The project follows a standard machine learning pipeline:
+1. **Data Collection & Processing:**
+    - Load the dataset using Pandas.
+    - Perform an initial exploratory data analysis (EDA) to understand the data's structure, check for missing values, and view statistical summaries.
+    
+2. **Feature and Target Splitting:**
+    - Separate the dataset into features (X) and the target variable (Y).
 
-Data Collection & Processing:
+3. **Data Splitting:**
+    - Divide the data into training (80%) and testing (20%) sets using `train_test_split` from Scikit-learn.
 
-Load the dataset using Pandas.
+4. **Model Training:**
+    - Train a Logistic Regression model on the training data (`X_train`, `Y_train`).
 
-Perform an initial exploratory data analysis (EDA) to understand the data's structure, check for missing values, and view statistical summaries.
+5. Model Evaluation:
+    - Evaluate the model's performance by calculating the accuracy score on both the training and testing data to check for overfitting.
 
-Feature and Target Splitting:
-
-Separate the dataset into features (X) and the target variable (Y).
-
-Data Splitting:
-
-Divide the data into training (80%) and testing (20%) sets using train_test_split from Scikit-learn.
-
-Model Training:
-
-Train a Logistic Regression model on the training data (X_train, Y_train).
-
-Model Evaluation:
-
-Evaluate the model's performance by calculating the accuracy score on both the training and testing data to check for overfitting.
-
-Predictive System:
-
-Build a simple system to take new input data and predict whether the patient has heart disease.
+6. Predictive System:
+    - Build a simple system to take new input data and predict whether the patient has heart disease.
 
 💻 Technologies Used
 Python 3
-
 NumPy: For numerical operations and creating NumPy arrays.
-
 Pandas: For data manipulation and loading the CSV file.
-
 Scikit-learn: For model building, data splitting, and performance evaluation.
-
 Jupyter Notebook: For interactive development and documentation.
 
 📈 Model Performance
