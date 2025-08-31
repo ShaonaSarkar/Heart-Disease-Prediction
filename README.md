@@ -7,13 +7,13 @@ This project aims to predict whether a person has heart disease based on various
 - [Dataset](#Dataset)
 - [Workflow](#Features)
 - [Technologies Used](#Target-Variable)
-- [Model Performance](#)
-- How to Use
+- [Model Performance](#Model-Performance)
+- [How to Use](#How-to-Use)
 
-### Project Overview
+### 📖 Project Overview
 The primary goal of this project is to build a machine learning model that can provide an early prediction of heart disease. By analyzing key medical features, the model can assist medical professionals in identifying patients at risk. We use a classic classification algorithm, Logistic Regression, for this purpose.
 
-### Dataset
+### 📊 Dataset
 The dataset used for this project is `heart.csv`, which contains 1025 records of patient data with 14 medical attributes.
 #### Features:
 1. `age`: Age of the patient
@@ -55,36 +55,30 @@ The project follows a standard machine learning pipeline:
 6. Predictive System:
     - Build a simple system to take new input data and predict whether the patient has heart disease.
 
-💻 Technologies Used
-Python 3
-NumPy: For numerical operations and creating NumPy arrays.
-Pandas: For data manipulation and loading the CSV file.
-Scikit-learn: For model building, data splitting, and performance evaluation.
-Jupyter Notebook: For interactive development and documentation.
+### 💻 Technologies Used
+- Python 3
+- NumPy: For numerical operations and creating NumPy arrays.
+- Pandas: For data manipulation and loading the CSV file.
+- Scikit-learn: For model building, data splitting, and performance evaluation.
+- Jupyter Notebook: For interactive development and documentation.
 
-📈 Model Performance
+### 📈 Model Performance
 The trained Logistic Regression model achieved the following accuracy:
+- Accuracy on Training Data: 85.24%
+- Accuracy on Testing Data: 80.49%
 
-Accuracy on Training Data: 85.24%
-
-Accuracy on Testing Data: 80.49%
-
-🚀 How to Use
+### 🚀 How to Use
 To run this project on your local machine, follow these steps:
+1. Clone the repository:
 
-Clone the repository:
+        - git clone [https://github.com/YourUsername/Heart-Disease-Prediction.git](https://github.com/YourUsername/Heart-Disease-Prediction.git) cd Heart-Disease-Prediction
 
-git clone [https://github.com/YourUsername/Heart-Disease-Prediction.git](https://github.com/YourUsername/Heart-Disease-Prediction.git)
-cd Heart-Disease-Prediction
+2. Install the required libraries:
 
-Install the required libraries:
+        - pip install numpy pandas scikit-learn
 
-pip install numpy pandas scikit-learn
+3. Download the dataset:
+    - Ensure the `heart.csv` file is in the same directory as the notebook.
 
-Download the dataset:
-
-Ensure the heart.csv file is in the same directory as the notebook.
-
-Run the Jupyter Notebook:
-
-Open and run the Heart_Disease_Prediction.ipynb file in a Jupyter environment.
+4. Run the Jupyter Notebook:
+    - Open and run the `Heart_Disease_Prediction.ipynb` file in a Jupyter environment.
