@@ -3,7 +3,7 @@
 This project aims to predict whether a person has heart disease based on various medical attributes. A Logistic Regression model is trained on a dataset of patient information to classify them into two categories: having heart disease or not.
 
 ## 📋 Table of Contents
-- [Project Overview](#Project-Overview)
+- [Project Overview](#📖-Project-Overview)
 - [Dataset](#Dataset)
 - [Workflow](#Features)
 - [Technologies Used](#Target-Variable)
