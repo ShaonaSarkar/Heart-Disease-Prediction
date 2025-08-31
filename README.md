@@ -3,17 +3,17 @@
 This project aims to predict whether a person has heart disease based on various medical attributes. A Logistic Regression model is trained on a dataset of patient information to classify them into two categories: having heart disease or not.
 
 ## 📋 Table of Contents
-- [Project Overview](#📖-Project-Overview)
+- [Project Overview](#Project-Overview)
 - [Dataset](#Dataset)
 - [Workflow](#Features)
 - [Technologies Used](#Target-Variable)
 - [Model Performance](#Model-Performance)
 - [How to Use](#How-to-Use)
 
-### 📖 Project Overview
+### Project Overview
 The primary goal of this project is to build a machine learning model that can provide an early prediction of heart disease. By analyzing key medical features, the model can assist medical professionals in identifying patients at risk. We use a classic classification algorithm, Logistic Regression, for this purpose.
 
-### 📊 Dataset
+### Dataset
 The dataset used for this project is `heart.csv`, which contains 1025 records of patient data with 14 medical attributes.
 #### Features:
 1. `age`: Age of the patient
@@ -34,7 +34,7 @@ The dataset used for this project is `heart.csv`, which contains 1025 records of
 
 - `target`: 1 (diseased heart) or 0 (healthy heart)
 
-### ⚙️ Workflow
+### Workflow
 The project follows a standard machine learning pipeline:
 1. **Data Collection & Processing:**
     - Load the dataset using Pandas.
@@ -55,19 +55,19 @@ The project follows a standard machine learning pipeline:
 6. Predictive System:
     - Build a simple system to take new input data and predict whether the patient has heart disease.
 
-### 💻 Technologies Used
+### Technologies Used
 - Python 3
 - NumPy: For numerical operations and creating NumPy arrays.
 - Pandas: For data manipulation and loading the CSV file.
 - Scikit-learn: For model building, data splitting, and performance evaluation.
 - Jupyter Notebook: For interactive development and documentation.
 
-### 📈 Model Performance
+### Model Performance
 The trained Logistic Regression model achieved the following accuracy:
 - Accuracy on Training Data: 85.24%
 - Accuracy on Testing Data: 80.49%
 
-### 🚀 How to Use
+### How to Use
 To run this project on your local machine, follow these steps:
 1. Clone the repository:
 
