@@ -71,7 +71,7 @@ The trained Logistic Regression model achieved the following accuracy:
 To run this project on your local machine, follow these steps:
 1. Clone the repository:
 
-        - git clone [https://github.com/YourUsername/Heart-Disease-Prediction.git](https://github.com/YourUsername/Heart-Disease-Prediction.git) cd Heart-Disease-Prediction
+        - https://github.com/ShaonaSarkar/Heart-Disease-Prediction.git
 
 2. Install the required libraries:
 
